@@ -31,6 +31,11 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>3.7</version>
       </plugin>
+      <plugin>
+        <groupId>com.atlassian.maven.plugins</groupId>
+        <artifactId>clover-maven-plugin</artifactId>
+        <version>4.1.2</version>
+      </plugin>
     </plugins>
   </build>
 
