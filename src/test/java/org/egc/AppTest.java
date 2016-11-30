@@ -18,8 +18,10 @@ public class AppTest
     @Test
     public void app()
     {
+
         DirectedGraph<String, DefaultEdge> graph = new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
         assertNotNull( graph );
+        
         assertTrue( true );
     }
 

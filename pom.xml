@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>demomaven01</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -22,4 +23,15 @@
       <scope>system</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.7</version>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
